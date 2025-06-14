@@ -1,0 +1,54 @@
+ 
+├── assets/  
+│   ├── logo.svg  
+│   ├── avatar.png  
+│   └── voice-intros/  
+│       ├── bradumarius-welcome.mp3  
+│       ├── bradumarius-strategy.mp3  
+│       └── bradumarius-inspire.mp3  
+├── components/  
+│   ├── ChatBox.jsx  
+│   ├── MessageBubble.jsx  
+│   ├── LanguageSelector.jsx  
+│   ├── QuickButtons.jsx  
+│   ├── TokenGateWrapper.jsx  
+│   ├── VoicePlayer.jsx  
+│   └── BotAvatarSelector.jsx  
+├── pages/  
+│   ├── Home.jsx  
+│   └── NotFound.jsx  
+├── services/  
+│   ├── openaiService.js  
+│   ├── tokenGate.js  
+│   ├── etoroAPI.js  
+│   ├── voiceService.js  
+│   ├── web3Service.js  
+│   ├── deepseekAPI.js  
+│   ├── geminiAPI.js  
+│   └── simplywallstAPI.js  
+├── utils/  
+│   ├── formatDate.js  
+│   ├── helpers.js  
+│   └── investorMindset.js  
+├── config/  
+│   └── settings.js  
+├── context/  
+│   └── ChatContext.jsx  
+├── hooks/  
+│   ├── useChatLogic.js  
+│   └── useVoiceControls.js  
+├── i18n/  
+│   ├── en.json  
+│   ├── ro.json  
+│   ├── fr.json  
+│   ├── it.json  
+│   └── es.json  
+├── data/  
+│   ├── faq.json  
+│   └── personas.json  
+├── middleware/  
+│   └── authGuard.js  
+├── App.jsx  
+├── main.jsx  
+├── index.html  
+└── README.md
