@@ -1,0 +1,35 @@
+{
+  "README.md": "Contine descrierea proiectului Agil3, viziune, functionalitati.",
+  "src/": {
+    "index.js": "Punctul principal de pornire pentru aplicatia React sau frontend.",
+    "App.js": "Logica UI a botului Agil3.",
+    "components/": {
+      "ChatInterface.js": "Interfata principala de chat.",
+      "TokenGate.js": "Verificarea accesului pe baza tokenului Agil3.",
+      "LanguageSelector.js": "Comutator pentru limbi (ro, en, fr, it, es)."
+    },
+    "assets/": {
+      "logo.png": "Logo-ul Agil3.",
+      "voiceSamples/": {
+        "welcome_bradu.mp3": "Mesaj audio introductiv cu vocea lui BraduMarius.",
+        "tip_mindset.mp3": "Exemplu de sfat inspirațional."
+      }
+    }
+  },
+  "api/": {
+    "openai.js": "Interfața cu API-ul OpenAI / Gemini.",
+    "portfolioData.js": "Funcții pentru a extrage date din eToro / Bullaware.",
+    "cryptoProjects.js": "Analiză pentru proiecte crypto."
+  },
+  "token/": {
+    "walletConnect.js": "Funcție pentru conectarea portofelului.",
+    "verifyTokenOwnership.js": "Verifică dacă userul deține tokenul Agil3."
+  },
+  "docs/": {
+    "architecture-diagram.png": "Schema vizuală a fluxului Agil3.",
+    "branding-guide.pdf": "Ghidul de identitate vizuală.",
+    "voice-guide.pdf": "Ghid pentru înregistrările vocale."
+  },
+  ".gitignore": "Fișiere și foldere de exclus din versionare.",
+  "package.json": "Definirea dependințelor și scripturilor de rulare."
+}
